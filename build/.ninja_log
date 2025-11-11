@@ -1,0 +1,9 @@
+# ninja log v7
+24	9568	7845781223027545	CMakeFiles/http_login.dir/src/server.cpp.obj	7c9c49bb64d10eb5
+23	327	7845784376862457	http_login.exe	9198a1c723111a17
+11	1648	7845796311829060	build.ninja	caf71f769cafc7e3
+11	1648	7845796311829060	C:/Users/ssh51/projects/http_login_cpp/build/cmake_install.cmake	caf71f769cafc7e3
+11	1648	7845796311829060	C:/Users/ssh51/projects/http_login_cpp/build/_deps/httplib-build/cmake_install.cmake	caf71f769cafc7e3
+11	1648	7845796311829060	C:/Users/ssh51/projects/http_login_cpp/build/_deps/nlohmann_json-build/cmake_install.cmake	caf71f769cafc7e3
+25	8732	7845796312453246	CMakeFiles/http_login.dir/src/server.cpp.obj	7c9c49bb64d10eb5
+8733	9042	7845796399535340	http_login.exe	9198a1c723111a17

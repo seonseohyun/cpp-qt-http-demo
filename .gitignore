@@ -1,0 +1,6 @@
+﻿build/
+*.exe
+*.obj
+*.o
+*.log
+.DS_Store

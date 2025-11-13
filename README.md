@@ -1,11 +1,11 @@
 # C++ HTTP Login Server + Qt Client  
 
-
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) 
 [![Language](https://img.shields.io/badge/language-C%2B%2B-blue)](https://en.cppreference.com/w/)
 [![Framework](https://img.shields.io/badge/Framework-Qt-green)](https://www.qt.io/)
 
-간단한 로그인 기능을 갖춘 C++ HTTP 서버와 Qt GUI 클라이언트 프로젝트입니다.  
+AWS 인스턴스 환경에서 C++(Qt) 기반 HTTP 서버와 클라이언트 통신을 구현하고 테스트하는 데모 프로젝트
+간단한 로그인 기능을 구현한 프로젝트입니다.  
 서버는 AWS EC2(Ubuntu)에서 동작하며, 클라이언트는 Qt 6 기반으로 HTTP 요청·응답을 처리합니다.
 
 ---

@@ -23,6 +23,7 @@ private slots:
     void on_btnLogin_clicked();
     void onLoginReply(QNetworkReply *reply);
     void checkServerHealth();
+    void lineEditIni();
 
 private:
     Ui::MainWindow *ui;

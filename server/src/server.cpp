@@ -208,7 +208,7 @@ int main() {
         }
     });
 
-    std::cout << "HTTP server running at: http://127.0.0.1:8080\n";
-    svr.listen("0.0.0.0", 8080);
+    std::cout << "HTTP server running at: http://127.0.0.1:80\n";
+    svr.listen("0.0.0.0", 80);
     return 0;
 }

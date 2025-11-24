@@ -133,8 +133,10 @@ void MainWindow::onLoginReply(QNetworkReply *reply)
     const int statusCode =
         reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
 
-    // 1) 네트워크 자체 에러, 서버까지 못 간 경우
-    if (reply->error() != QNetworkReply::NoError) {
+    // 1) statusCode가 있으면 서버 응답을 받은 것
+    //    → HTTP 에러(4xx, 5xx)는 나중에 처리
+    // statusCode가 0이면 진짜 네트워크 연결 실패
+    if (statusCode == 0 && reply->error() != QNetworkReply::NoError) {
         QMessageBox::warning(this, "네트워크 오류",
                              "서버에 연결할 수 없습니다.\n" + reply->errorString());
         reply->deleteLater();

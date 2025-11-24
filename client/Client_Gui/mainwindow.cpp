@@ -52,7 +52,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 void MainWindow::checkServerHealth()
 {
-    QUrl url("http://3.36.131.145:8080/health");
+    QUrl url("http://15.164.100.14:8080/health");
 
     QNetworkRequest req(url);
     // GET 요청 전송, HTTP 요청을 보내려면 Request가 필요함, like 택배박스
@@ -96,7 +96,7 @@ void MainWindow::on_btnLogin_clicked()
     }
 
     // 2) 요청 URL 설정
-    QUrl url("http://3.36.131.145:8080/login");
+    QUrl url("http://15.164.100.14:8080/login");
     QNetworkRequest req(url);
 
     // 3) HTTP 헤더 설정: JSON 보낸다고 명시
